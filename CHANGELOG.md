@@ -4,6 +4,24 @@ All notable changes to `@enrichlayer/el-linear` are documented here. The format
 follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this
 project adheres to [Semantic Versioning](https://semver.org/).
 
+## [1.11.0](https://github.com/enrichlayer/el-linear/compare/v1.10.0...v1.11.0) (2026-05-12)
+
+
+### Features
+
+* **cli:** add cli-introspect + validate-flag for SKILL.md flag-name linting ([#76](https://github.com/enrichlayer/el-linear/issues/76)) ([5e97d5d](https://github.com/enrichlayer/el-linear/commit/5e97d5d4b1427762812ea461781ead8972f7524f))
+* **issues:** add --field flag to issues read for markdown section extraction (ALL-940) ([#71](https://github.com/enrichlayer/el-linear/issues/71)) ([404002f](https://github.com/enrichlayer/el-linear/commit/404002fbf992fc789cb79ba2d02e30d3ad8ec44c))
+
+
+### Bug Fixes
+
+* append/insert '--' separator on git checkout/branch invocations (DEV-4064) ([#83](https://github.com/enrichlayer/el-linear/issues/83)) ([3b74370](https://github.com/enrichlayer/el-linear/commit/3b74370778548bb384156af2a386393f32f1a99a))
+* **introspect:** add --check-flag option + explicit return after process.exit ([#79](https://github.com/enrichlayer/el-linear/issues/79)) ([ebba3f8](https://github.com/enrichlayer/el-linear/commit/ebba3f88702bd41e052aeeb84c4dd3d2eebf0124))
+* sanitize OAuth refresh error body at source (DEV-4065) ([#87](https://github.com/enrichlayer/el-linear/issues/87)) ([1e11ac0](https://github.com/enrichlayer/el-linear/commit/1e11ac0417175cc3656cd3d244bd66aa607efe34))
+* **security:** close 4 adversarial findings + read --version from package.json ([#75](https://github.com/enrichlayer/el-linear/issues/75)) ([2c429f1](https://github.com/enrichlayer/el-linear/commit/2c429f16fa6ebe449346e2a963fbd3b78fb6c384))
+* serialize init wizard config writes with file lock (DEV-4066) ([#88](https://github.com/enrichlayer/el-linear/issues/88)) ([b32ebe1](https://github.com/enrichlayer/el-linear/commit/b32ebe1f7b10d81365fb62ae32512b27fe285cc8))
+* validate EL_LINEAR_WORKSPACE_URL_KEY env + config urlKey shape (DEV-4067) ([#85](https://github.com/enrichlayer/el-linear/issues/85)) ([52307c7](https://github.com/enrichlayer/el-linear/commit/52307c74c7795ca7de5ca992a0bed011e3307a09))
+
 ## [1.10.0](https://github.com/enrichlayer/el-linear/compare/v1.9.0...v1.10.0) (2026-05-11)
 
 
